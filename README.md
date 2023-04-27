@@ -122,3 +122,30 @@
     Date:   Thu Apr 27 15:09:07 2023 +0200
 
         initialized project
+
+9. git pull:
+      *************** ~/****/EpicodeJava/E3-W3-U2--Git (master)
+      $ git pull
+      remote: Enumerating objects: 6, done.
+      remote: Counting objects: 100% (6/6), done.
+      remote: Compressing objects: 100% (5/5), done.
+      remote: Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+      Unpacking objects: 100% (5/5), 2.31 KiB | 337.00 KiB/s, done.
+      From https://github.com/AleOnta/E3-W3-U2--Git
+         a643ede..1837615  master     -> origin/master
+      Merge made by the 'ort' strategy.
+       README.md | 124 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+       1 file changed, 124 insertions(+)
+       create mode 100644 README.md
+
+      *************** ~/****/EpicodeJava/E3-W3-U2--Git (master)
+      $ git push
+      Enumerating objects: 61, done.
+      Counting objects: 100% (51/51), done.
+      Delta compression using up to 12 threads
+      Compressing objects: 100% (24/24), done.
+      Writing objects: 100% (39/39), 2.67 KiB | 911.00 KiB/s, done.
+      Total 39 (delta 14), reused 0 (delta 0), pack-reused 0
+      remote: Resolving deltas: 100% (14/14), completed with 5 local objects.
+      To https://github.com/AleOnta/E3-W3-U2--Git.git
+         1837615..ad47439  master -> master
