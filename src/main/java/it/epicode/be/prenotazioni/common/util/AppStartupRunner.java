@@ -56,6 +56,7 @@ public class AppStartupRunner implements CommandLineRunner {
 
 		}
 		System.out.println("sysout to commit");
+		System.out.println("conflictual commit");
 	}
 	
 	private List<Role> initRole() {
